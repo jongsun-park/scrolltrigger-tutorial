@@ -1,0 +1,134 @@
+const DemoGallery = () => (
+  <>
+    <section className="demo-gallery">
+      <ul className="wrapper" style={{ transform: "translate(100%, 0px)" }}>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=10"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=137"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=42"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=73"
+            width="1240"
+          />
+        </li>
+      </ul>
+    </section>
+    <section className="demo-gallery">
+      <ul className="wrapper" style={{ transform: "translate(-2036px, 0px)" }}>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=190"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=152"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=8"
+            width="1240"
+          />
+        </li>
+      </ul>
+    </section>
+    <section className="demo-gallery">
+      <ul className="wrapper" style={{ transform: "translate(100%, 0px)" }}>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=206"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=186"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=9"
+            width="1240"
+          />
+        </li>
+      </ul>
+    </section>
+    <section className="demo-gallery">
+      <ul className="wrapper" style={{ transform: "translate(-2710px, 0px)" }}>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=172"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=136"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=119"
+            width="1240"
+          />
+        </li>
+        <li>
+          <img
+            alt=""
+            height="874"
+            src="https://source.unsplash.com/random/1240x874?sig=152"
+            width="1240"
+          />
+        </li>
+      </ul>
+    </section>
+  </>
+);
+
+export default DemoGallery;

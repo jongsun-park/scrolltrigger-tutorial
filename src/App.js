@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+import {
+  routes,
+  Homepage,
+  StaggeredReveals,
+  StaggeredElementPosition,
+  PinnedContent,
+  HorizontalGallery,
+} from "./pages";
+
+import Layout from "./components/Layout";
+
+import "./App.css";
+
+const Example1 = () => <div>example - 1</div>;
+const Example2 = () => <div>example - 2</div>;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Layout routes={routes}>
+        <Switch>
+          <Route path="/" exact component={Homepage} />
+          <Route path="/ex-1" component={Example1} />
+          <Route path="/ex-2" component={Example2} />
+          <Route path="/staggered-reveals" component={StaggeredReveals} />
+          <Route
+            path="/staggered-element-position"
+            component={StaggeredElementPosition}
+          />
+          <Route path="/pinned-content" component={PinnedContent} />
+          <Route path="/hoizontal-gallery" component={HorizontalGallery} />
+        </Switch>
+      </Layout>
+    </Router>
   );
-}
+};
 
 export default App;
